@@ -6,7 +6,7 @@ image:
   repository: ghcr.io/ibm-hyper-protect/k8s-operator-hpcr
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: latest
+  # tag: latest
 
 serviceAccount:
   create: true
