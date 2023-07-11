@@ -2,6 +2,26 @@ apiVersion: v1
 entries:
   k8s-operator-hpcr:
   - apiVersion: v2
+    appVersion: 1.16.1
+    created: "2023-07-11T23:31:55.010895627Z"
+    description: A Kubernetes operator for managing VPC and onprem HPCR images
+    digest: 36ebcaa53caa2d647fddbd6f32e2e9b1928b6281c4d8f0bfd5a6a2a1a0d53c71
+    home: https://github.com/ibm-hyper-protect/k8s-operator-hpcr
+    keywords:
+    - kubernetes-hpcr
+    - hpcr
+    - onprem
+    - vpc
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: test@gmail.com
+      name: Carsten Leue
+    name: k8s-operator-hpcr
+    type: application
+    urls:
+    - https://github.com/ObedTetteh/ocp-operator/releases/download/k8s-operator-hpcr-0.16.1/k8s-operator-hpcr-0.16.1.tgz
+    version: 0.16.1
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2023-07-11T22:18:46.837899207Z"
     description: A Kubernetes operator for managing VPC and onprem HPCR images
@@ -21,4 +41,4 @@ entries:
     urls:
     - https://github.com/ObedTetteh/ocp-operator/releases/download/k8s-operator-hpcr-0.1.0/k8s-operator-hpcr-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-11T22:18:46.837905207Z"
+generated: "2023-07-11T23:31:55.010902827Z"
